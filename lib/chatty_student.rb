@@ -5,7 +5,10 @@ class ChattyStudent < Student
   end 
   
   def raise_hand
-    10.times super
+    super_duper
   end   
   
+  def super_duper
+    10.times super
+  end   
 end   
